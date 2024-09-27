@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`To test Signup component It should match the related snapshot 1`] = `
+<div
+  className="registerPage"
+>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="top"
+    >
+      <header>
+        Sign Up
+      </header>
+      <div
+        className="input-field reg-field"
+      >
+        <input
+          id="name"
+          name="name"
+          onChange={[Function]}
+          placeholder="Name"
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="input-field reg-field"
+      >
+        <input
+          id="email"
+          name="email"
+          onChange={[Function]}
+          placeholder="Email"
+          required={true}
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        className="input-field reg-field"
+      >
+        <input
+          id="password"
+          name="password"
+          onChange={[Function]}
+          placeholder="Password"
+          required={true}
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        className="input-field reg-field"
+      >
+        <input
+          id="confirmPassword"
+          name="confirmPassword"
+          onChange={[Function]}
+          placeholder="confirmPassword"
+          required={true}
+          type="password"
+          value=""
+        />
+      </div>
+      <button
+        className="submit"
+        disabled={false}
+        type="submit"
+      >
+        Sign Up
+      </button>
+      <div
+        className="two-col"
+      >
+        <div
+          className="one"
+        >
+          <p>
+            Already have an account? 
+          </p>
+          <p>
+            <a
+              className="whiteLink"
+              href="/login"
+              onClick={[Function]}
+            >
+              Login Here
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

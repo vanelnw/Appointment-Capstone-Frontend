@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cars renders correctly 1`] = `
+<div
+  className="topnav"
+>
+  <div
+    className="logo-cont"
+  >
+    <img
+      alt="logo"
+      className="logo"
+      src="logo.png"
+    />
+  </div>
+  <div
+    className="auth"
+  >
+    <button
+      className="button"
+      type="button"
+    >
+      <a
+        className="login"
+        href="/login"
+        onClick={[Function]}
+      >
+        Login
+      </a>
+    </button>
+    <button
+      className="button"
+      type="button"
+    >
+      <a
+        className="signup"
+        href="/register"
+        onClick={[Function]}
+      >
+        Register
+      </a>
+    </button>
+  </div>
+</div>
+`;

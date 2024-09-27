@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Login Component It should match its snapshot 1`] = `
+<div
+  className="loginPage"
+>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="top"
+    >
+      <span>
+        Don't have an account yet? 
+        <a
+          href="/register"
+          onClick={[Function]}
+        >
+          Register Here
+        </a>
+      </span>
+      <header>
+        Login
+      </header>
+    </div>
+    <div
+      className="input-field"
+    >
+      <input
+        id="email"
+        name="email"
+        onChange={[Function]}
+        placeholder="email"
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      className="input-field"
+    >
+      <input
+        onChange={[Function]}
+        placeholder="password"
+        type="password"
+        value=""
+      />
+    </div>
+    <button
+      className="submit"
+      disabled={false}
+      type="submit"
+    >
+      Login
+    </button>
+    <div
+      className="two-col"
+    >
+      <div
+        className="one"
+      >
+        <input
+          id="check"
+          name=""
+          type="checkbox"
+        />
+        <label
+          htmlFor="check"
+        >
+           Remember Me
+        </label>
+      </div>
+      <div
+        className="two"
+      >
+        <label>
+          <a
+            href="./LOGIN"
+          >
+            Forgot password?
+          </a>
+        </label>
+      </div>
+    </div>
+  </form>
+</div>
+`;

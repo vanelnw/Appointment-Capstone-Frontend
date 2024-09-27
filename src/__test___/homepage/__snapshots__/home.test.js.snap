@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cars renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="headline-cont"
+  >
+    <h1>
+      Latest Models
+    </h1>
+    <span>
+      Please select a car
+    </span>
+  </div>
+  <div
+    className="cars-container"
+  />
+</div>
+`;

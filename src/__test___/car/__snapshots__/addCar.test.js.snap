@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test adding new investigator Should match its snapshot 1`] = `
+<div
+  className="addForm"
+>
+  <div
+    className="innercontainer"
+  >
+    <div
+      className="add-heading"
+    >
+      <h2>
+        Add a new car
+      </h2>
+    </div>
+    <form
+      className="add-form"
+      onSubmit={[Function]}
+    >
+      <label
+        className="add-form-field"
+        htmlFor="make"
+      >
+        Make:
+        <input
+          className="addInput"
+          id="make"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="add-form-field"
+        htmlFor="model"
+      >
+        Model:
+        <input
+          className="addInput"
+          id="model"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="add-form-field"
+        htmlFor="year"
+      >
+        Year:
+        <input
+          className="addInput"
+          id="year"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="add-form-field"
+        htmlFor="image"
+      >
+        Image:
+        <input
+          id="image"
+          onChange={[Function]}
+          type="file"
+          value=""
+        />
+      </label>
+      <label
+        className="add-form-field"
+        htmlFor="description"
+      >
+        Description:
+        <textarea
+          id="description"
+          onChange={[Function]}
+          value=""
+        />
+      </label>
+      <label
+        className="add-form-field"
+        htmlFor="daily-rate"
+      >
+        Daily Rate:
+        <input
+          id="daily-rate"
+          onChange={[Function]}
+          type="number"
+          value=""
+        />
+      </label>
+      <button
+        className="btn-add-car"
+        type="submit"
+      >
+        Add Car
+      </button>
+    </form>
+  </div>
+</div>
+`;
